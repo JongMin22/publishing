@@ -22,14 +22,14 @@
         // 문제1 : prevPic 함수를 만들어서 사진을 뒤로 돌리는
         // 로직도 추가해주세요.
     }
-    var Num = 2;
+    
     function prevPic(){
-            Num--; // 다음 그림번호로 이동
-            if(Num < 0){// 마지막 그림번호 초과시
-            Num =2; // 첫 그림 번호로 되돌리기}
+            num--; // 다음 그림번호로 이동
+            if(num < 0){// 마지막 그림번호 초과시
+            num =2; // 첫 그림 번호로 되돌리기}
         }
         console.log(document.getElementById("pic"));
-        document.getElementById("pic").src = "img/img"+ Num +".jpg.lnk";
+        document.getElementById("pic").src = "img/img"+ num +".jpg.lnk";
         // id 가 pic인 요소(그림)의 src속성을
         // 1증가된 num을 이용해 바꿔줌
 
